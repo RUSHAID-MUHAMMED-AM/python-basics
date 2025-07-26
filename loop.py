@@ -5,10 +5,18 @@
 #         print(i)
 
 
-#2Print the sum of all numbers from 1 to 50 using a for loop
+# #2Print the sum of all numbers from 1 to 50 using a for loop
+
+# k=0;
+# for i in range(1,51):
+#     k+=i;
+# print(k);
+    
+
+
+#Print the sum of all numbers from 1 to 50 using a for loop
 
 k=0;
 for i in range(1,51):
     k+=i;
 print(k);
-    
