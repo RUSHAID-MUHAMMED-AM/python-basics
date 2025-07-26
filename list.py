@@ -5,3 +5,7 @@ fruits.insert(0,"melon");
 print(fruits);
 fruits.extend(["pineApple","cherry"])
 print(fruits);
+
+
+
+
