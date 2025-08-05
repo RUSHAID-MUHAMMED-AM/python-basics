@@ -7,8 +7,9 @@ class Book:
        
 class BorrowedBook(Book):
     def __init__(self,title,author,borrower):
-        super().__init__(title,author)
         self.borrower=borrower
+        super().__init__(title,author)
+        # self.borrower=borrower
 
     def display_info(self):
        super().display_info()
